@@ -1,18 +1,13 @@
 {
-  "name": "blog-docker-node",
+  "name": "docker_web_app",
   "version": "1.0.0",
-  "description": "Example on node app showing demonstrating how to dockerize a node application",
-  "main": "index.js",
+  "description": "Example of Node.js on Docker and demonstrating how to dockerize a node application",
+  "author": "Devopsguy9 <devopsguy9@gmail.com>",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devopsguy9/Node-Js-Sample-App.git"
-  },
-  "author": "DevopsGuy9 <devopsguy9@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "https://github.com/devopsguy9/Node-Js-Sample-App/issues"
-  },
-  "homepage": "https://github.com/devopsguy9"
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
