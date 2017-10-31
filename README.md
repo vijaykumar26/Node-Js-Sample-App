@@ -9,3 +9,17 @@ Be in the directory Node-Js-Sample-App
 - `docker build -t ravi2krishna/node-app .`
 - `docker run -p 8080:8080 -d ravi2krishna/node-app`
 
+### Saving the image to docker hub
+- `Register for account`
+- `In server machine`
+- `# docker login`
+- `# docker images`    
+- `# docker tag e63ada01cfdf(image-id) docker-user_id/image-name`
+- `# docker images`    
+- `# docker push docker-user_id/image-name`
+
+        
+        
+        
+
+        
