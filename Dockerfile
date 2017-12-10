@@ -7,9 +7,6 @@ RUN mkdir -p /usr/src/app
 # Set the working dir when our container executes
 WORKDIR /usr/src/app
 
-# Copy our package.json file
-# ADD package.json /usr/src/app
-
 # Install app dependencies
 COPY package.json .
 # For npm@5 or later, copy package-lock.json as well
