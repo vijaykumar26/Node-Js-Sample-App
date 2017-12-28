@@ -16,7 +16,7 @@ Be in the directory Node-Js-Sample-App
 - `# docker login`
 - `# docker images`      
 - `# docker push docker-user_id/image-name`
-- `# docker push ravi2krishna/node-app
+- `# docker push ravi2krishna/node-app`
 
         
         
