@@ -1,4 +1,4 @@
-## Building own Node.js image
+## Building Custom image for Node JS Application
 
 Goal: The purpose of this image is to Create Node js Application
 
