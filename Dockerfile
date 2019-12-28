@@ -1,6 +1,9 @@
 #Choose a base image
 FROM node
 
+# Setting Environment Variable
+ENV PORT 8080
+
 # Create a new folder for our application
 RUN mkdir -p /usr/src/app
 
@@ -19,7 +22,7 @@ RUN npm install
 COPY . /usr/src/app
 
 #Expose our application port
-EXPOSE 8080
+EXPOSE $PORT
 
 # Set start command
 CMD [ "npm", "start" ]
