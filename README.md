@@ -1,6 +1,6 @@
 ## Building Custom image for Node JS Application
 
-Goal: The purpose of this image is to Create Node js Application
+Goal: The purpose of this image is to Create Node js Application.
 
 ### Steps to building your own image
 
