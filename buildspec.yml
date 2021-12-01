@@ -23,8 +23,7 @@ post_build:
       - docker push $REPOSITORY_URI:latest
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
-      - printf '[{"name":"tracking","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG 
+      - printf '[{"name":"tracking","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
     
 artifacts:
-  files:
-    - '**/*'          
+  files: imagedefinitions.json         
