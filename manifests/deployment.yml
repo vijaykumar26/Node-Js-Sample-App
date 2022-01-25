@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: vijaykumarnodejssampleapp 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vijaykumarnodejssampleapp
+  template:
+    metadata:
+      labels:
+        app: vijaykumarnodejssampleapp 
+    spec:
+      containers:
+        - name: vijaykumarnodejssampleapp 
+          image: testecs.azurecr.io/vijaykumarnodejssampleapp
+          ports:
+          - containerPort: 80
