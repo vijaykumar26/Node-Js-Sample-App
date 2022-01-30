@@ -17,7 +17,7 @@ spec:
           image: 642512558314.dkr.ecr.us-east-1.amazonaws.com/node
           ports:
           - containerPort: 80
-
+---          
 
 apiVersion: v1
 kind: Service
